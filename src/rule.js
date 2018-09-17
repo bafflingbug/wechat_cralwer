@@ -55,7 +55,7 @@ module.exports = {
                 console.log('[ERROR]' + e.toString())
                 return null;
             }
-        } else if (/mp\/profile_ext\?action=getmsg/i.test(requestDetail.url)) {
+        } else if (/mp\/profile_ext\?action=getmsg/i.test(requestDetail.url)) {//上滑加载的内容
             console.log('[INFO] find url->json')
             try {
                 // 提交json
